@@ -1,0 +1,32 @@
+@import '../styles/global/_colors';
+@import '../styles/global/_fonts';
+
+.hiddenInHamburger {
+	display:none;
+}
+
+.portfolio-global-navbar {
+	background-color: lightgrey;
+} 
+
+.logo {
+	max-height: 28px;
+	max-width: 28px;
+}
+
+.open-left {
+	right: 0;
+	left: auto;
+}
+
+.is-hoverable:hover .hiddenInHamburger {
+	display:block;
+}
+
+.fjalla-one {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.dosis {
+	font-family: 'Dosis', sans-serif;
+}

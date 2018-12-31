@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'self';
+  
+	burgerMenuToggle: boolean = false;
+
+	toggleBurgerMenu(){
+		return this.burgerMenuToggle = !this.burgerMenuToggle;
+	}
+
+
+
 }
